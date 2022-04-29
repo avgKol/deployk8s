@@ -21,4 +21,4 @@ steps:
   inputs:
     action: 'deploy'
     kubernetesServiceConnection: 'akspoc-rg-it-sandbox-00'
-    manifests: '$(Build.SourcesDirectory)/manifests/deployment.yml'
+    manifests: './manifests/deployment.yml'
