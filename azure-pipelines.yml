@@ -1,6 +1,0 @@
-- task: KubernetesManifest@0
-  inputs:
-    action: 'deploy'
-    kubernetesServiceConnection: 'akspoc-rg-it-sandbox-00'
-    namespace: 'demo'
-    manifests: '$(Build.SourcesDirectory)/manifests/deployment.yml'
